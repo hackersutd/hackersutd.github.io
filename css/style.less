@@ -1,0 +1,177 @@
+@import url('ionicons.min.css');
+@import url('lesshat.less');
+body {
+	background: #F0F0F0;
+	font: 12pt Helvetica;
+	padding: 0;
+	margin: 0;
+	color: #777;
+}
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+::selection {
+	background: #6B91E2;
+	color: #FFF;
+}
+a {
+	color: #4FA4FF;
+	text-decoration: none;
+	&:hover {
+		color: #90C6FF;
+	}
+}
+a, button, .btn {
+	transition: all 200ms ease-in-out;
+	&:hover {
+		cursor: pointer;
+	}
+}
+.hidden {
+	display: none;
+}
+.transparent {
+	opacity: 0;
+}
+.clear {
+	clear: both;
+}
+button, .btn {
+	background: #ddd;
+	border: none;
+	padding: 0.5em 1em;
+	font-size: 1em;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+input {
+	background: #eee;
+	border: none;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+/*BEGIN STYLE*/
+body {
+	& > header {
+		padding: 100px 0;
+		padding-bottom: 200px;
+		background: url('/images/greenbg.png');
+		background-size: cover;
+		background-position: center;
+		.container {
+			margin: 0 auto;
+			width: 50%;
+			line-height: 1em;
+			color: #FFF;
+			text-align: center;
+			font-weight: 100;
+			h1 {
+				font-size: 5em;
+				line-height: 1em;
+				margin: 0;
+			}
+			p {
+				font-size: 1.2em;
+				color: #DFFFB7;
+			}
+		}
+	}
+	& > .even {
+		position: relative;
+		background: #f0f0f0;
+		padding-bottom: 20px;
+		z-index: 0;
+		&:before {
+			content: "";
+			background: inherit;
+			.rotate(2deg);
+			position: absolute;
+			width: 101%;
+			height: 100px;
+			top: -50px;
+			left: -1%;
+			z-index: -1;
+		}
+		&:after {
+			content: "";
+			background: inherit;
+			.rotate(-2deg);
+			position: absolute;
+			width: 101%;
+			height: 100px;
+			bottom: -50px;
+			left: -1%;
+			z-index: -1;
+		}
+	}
+	#about .container {
+		width: 80%;
+		margin: auto;
+		text-align: center;
+		font-weight: 100;
+		line-height: 1.6em;
+		& > div {
+			display: inline-block;
+			width: 30%;
+			margin: 0 1%;
+			vertical-align: top;
+			& > i {
+				font-size: 80px;
+				width: 120px;
+				height: 120px;
+				padding: 20px;
+				margin-bottom: 30px;
+				border-radius: 100%;
+				background: #FFA158;
+				color: #FFF;
+			}
+		}
+	}
+	#splash {
+		background: url('/images/macbooks.jpg');
+		background-position: center;
+		background-size: cover;
+		padding: 200px 0;
+		padding-bottom: 150px;
+		text-align: center;
+		button {
+			border-radius: 5px;
+			padding: 20px 30px;
+			background: #458ACA;
+			color: #FFF;
+			line-height: 1.5em;
+			&:hover {
+				background: #2C92F0;
+			}
+			.ion {
+				padding-right: 12px;
+				margin-right: 8px;
+				font-size: 1.5em;
+				border-right: 1px solid rgba(255, 255, 255, 0.2);
+			}
+		}
+	}
+	footer {
+		padding: 0 20px;
+		color: #bbb;
+		&.even:before {
+			height: 50px;
+			top: -35px;
+			.rotate(1deg);
+		}
+		&:after {
+			display: none;
+		}
+		&> * {
+			display: inline;
+			margin: 0 5px;
+		}
+	}
+}
