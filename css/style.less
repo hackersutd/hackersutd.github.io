@@ -74,14 +74,14 @@ body {
 		.background {
 			background: url('/images/crystalbg.png');
 		}
-		padding: 100px 0;
-		padding-bottom: 200px;
+		padding: 150px 0;
+		padding-bottom: 220px;
 		.container {
 			margin: 0 auto;
 			width: 50%;
 			line-height: 1em;
 			color: #FFF;
-			text-align: center;
+			text-align: left;
 			font-weight: 100;
 			h1 {
 				font-size: 5em;
@@ -102,7 +102,7 @@ body {
 		&:before {
 			content: "";
 			background: inherit;
-			.rotate(2deg);
+			.rotate(1deg);
 			position: absolute;
 			width: 101%;
 			height: 100px;
@@ -113,7 +113,7 @@ body {
 		&:after {
 			content: "";
 			background: inherit;
-			.rotate(-2deg);
+			.rotate(-1deg);
 			position: absolute;
 			width: 101%;
 			height: 100px;
@@ -147,22 +147,36 @@ body {
 	}
 	#splash {
 		padding: 200px 0;
-		padding-bottom: 150px;
+		padding-bottom: 170px;
 		text-align: center;
 		button {
 			border-radius: 5px;
 			padding: 20px 30px;
-			background: #458ACA;
+			padding-left: 50px;
+			margin: 0 10px;
+			background: #EBA836;
 			color: #FFF;
 			line-height: 1.5em;
+			vertical-align: top;
+			position: relative;
 			&:hover {
-				background: #2C92F0;
+				background: #FFB029;
 			}
 			.ion {
-				padding-right: 12px;
-				margin-right: 8px;
-				font-size: 1.5em;
-				border-right: 1px solid rgba(255, 255, 255, 0.2);
+				position: absolute;
+				left: 12px;
+				top: 50%;
+				margin-top: -15px;
+				width: 30px;
+				height: 30px;
+				font-size: 30px;
+			}
+		}
+		button.fb {
+			padding-right: 0;
+			background: #477ED1;
+			&:hover {
+				background: #377EE7;
 			}
 		}
 	}
