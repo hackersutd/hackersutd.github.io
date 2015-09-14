@@ -1,0 +1,42 @@
+redesigned
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Mon Sep 14 00:16:16 2015 -0500
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   css/.DS_Store
+#	deleted:    css/lesshat.less
+#	deleted:    css/lessmix.less
+#	modified:   css/style.css
+#	modified:   css/style.less
+#	modified:   fonts/.DS_Store
+#	new file:   fonts/SourceSansPro-Black.ttf
+#	new file:   fonts/SourceSansPro-BlackItalic.ttf
+#	new file:   fonts/SourceSansPro-Bold.ttf
+#	new file:   fonts/SourceSansPro-BoldItalic.ttf
+#	new file:   fonts/SourceSansPro-ExtraLight.ttf
+#	new file:   fonts/SourceSansPro-ExtraLightItalic.ttf
+#	new file:   fonts/SourceSansPro-Italic.ttf
+#	new file:   fonts/SourceSansPro-Light.ttf
+#	new file:   fonts/SourceSansPro-LightItalic.ttf
+#	new file:   fonts/SourceSansPro-Regular.ttf
+#	new file:   fonts/SourceSansPro-Semibold.ttf
+#	new file:   fonts/SourceSansPro-SemiboldItalic.ttf
+#	modified:   images/.DS_Store
+#	new file:   images/Usquiggle.svg
+#	new file:   images/Usquigglew.svg
+#	new file:   images/hackathon.jpg
+#	deleted:    images/macbooks.jpg
+#	new file:   images/utdlogo.svg
+#	new file:   images/utdlogow.svg
+#	modified:   index.html
+#	new file:   js/EasePack.min.js
+#	new file:   js/TweenLite.min.js
+#	modified:   js/javascript.js
+#	new file:   js/pointHeader.js
+#
