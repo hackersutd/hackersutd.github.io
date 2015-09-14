@@ -5,19 +5,38 @@
   <title>UTD Hackers</title>
   <link href="css/style.css" rel="stylesheet" />
   <script src="js/jquery.min.js"></script>
+  <script src="js/TweenLite.min.js"></script>
+  <script src="js/EasePack.min.js"></script>
+  <script src="js/pointHeader.js"></script>
   <script src="js/javascript.js"></script>
 </head>
 
 <body>
-  <header>
+  <nav>
+    <h1><i class="logo"></i><span>Hackers UTD</span></h1>
+  </nav>
+  <header id="header">
     <div class="background"></div>
+    <canvas id="header-canvas"></canvas>
     <div class="container">
-      <h1 id="logo">UTD Hackers</h1>
-      <p id="subtitle">We innovate, create, and build software and hardware projects at hackathons.</p>
+      <h1>We do</h1>
+      <h1 class="two">stuff</h1>
+      <span class="squiggle"></span>
     </div>
   </header>
-  <section class="even" id="about">
-    <div class="container">
+  <section class="even">
+    <div class="container" id="about">
+      <h1><span class="important">200+</span> hackers strong.</h1>
+      <span class="squiggle"></span>
+      <h2>Hackers UTD is a group of students who are focused on participation of hackathons.</h2>
+      <p>Hackathons are fun and exciting--they bring a group of engineers together and foster growth and collaboration.
+        The hackathon encompasses both learning and creation; participants learn a lot about programming during the hack,
+        while at the same time create a brand new product.The end result is not only the created product, but also result
+        in camaraderie between the participants that lend to lifelong friendships.</p>
+      <p>Hackers UTD will participate in local and national hackathons in the United States, as well as hold a hackathon at UTD.</p>
+      <span class="squiggle"></span>
+    </div>
+    <div class="container" id="faq">
       <div>
         <i class="ion ion-help"></i>
         <h2>What is a hackathon?</h2>
@@ -38,11 +57,11 @@
   </section>
   <section id="splash">
     <div class="background"></div>
-    <a href="https://www.facebook.com/groups/utdhackers/" target="blank"><button class="fb"><span class="ion ion-social-facebook"></span>&nbsp;</button></a>
-    <a href="http://hackdfw.com/" target="blank"><button><span class="ion ion-android-developer"></span> Sign up for HackDFW!</button></a></a>
+    <a href="https://www.facebook.com/groups/utdhackers/" target="blank"><button class="fb"><span class="ion ion-social-facebook"></span> Join our Facebook group.</button></a>
+    <!-- <a href="http://hackdfw.com/" target="blank"><button><span class="ion ion-android-developer"></span> Sign up for HackDFW!</button></a></a> -->
   </section>
   <footer class="even">
-    <h3>UTD Hackers</h3><p>Keep on rockin'</p>
+    <h3><i class="logo dark"></i>UTD Hackers</h3><p>Keep on rockin'</p>
   </footer>
 </body>
 

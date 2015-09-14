@@ -1,11 +1,24 @@
+@font-face {
+	font-family: "Source Sans";
+	src: url('/fonts/SourceSansPro-Regular.ttf');
+}
+@font-face {
+	font-family: "Source Sans";
+	font-weight: bold;
+	src: url('/fonts/SourceSansPro-Bold.ttf');
+}
+@font-face {
+	font-family: "Source Sans";
+	font-weight: 100;
+	src: url('/fonts/SourceSansPro-Light.ttf');
+}
 @import url('ionicons.min.css');
-@import url('lesshat.less');
 body {
-	background: #F0F0F0;
-	font: 12pt Helvetica;
+	background: #FAFAFA;
+	font: 14pt "Source Sans",Helvetica;
 	padding: 0;
 	margin: 0;
-	color: #777;
+	color: #888;
 }
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
@@ -58,8 +71,40 @@ input {
 }
 
 /*BEGIN STYLE*/
+.logo {
+	background: url('/images/utdlogow.svg') center no-repeat;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	position: relative;
+	bottom: -.1em;
+	margin-right: .2em;
+	background-size: contain;
+	&.dark {
+		background: url('/images/utdlogo.svg') center no-repeat;
+		background-size: contain;
+		opacity: 0.3;
+	}
+}
+nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	h1 {
+		font-size: 2em;
+		color: #FFF;
+		margin: 0;
+		opacity: 0.7;
+		span {
+		}
+		display: inline-block;
+	}
+}
+
 body {
-	.background {	
+	.background {
 		position: fixed;
 		bottom: 0;
 		left: 0;
@@ -72,40 +117,63 @@ body {
 	& > header {
 		position: relative;
 		.background {
-			background: url('/images/crystalbg.png');
+			background: url('/images/hackathon.jpg');
+			background-size: cover;
+			&:after {
+				content: "";
+				background: rgba(25,195,106,0.5);
+				width: 100%;
+				height: 100%;
+				position: absolute;
+			}
 		}
-		padding: 150px 0;
 		padding-bottom: 220px;
+		canvas {
+			position: absolute;
+			top: 0;
+			display: block;
+		}
 		.container {
 			margin: 0 auto;
-			width: 50%;
-			line-height: 1em;
-			color: #FFF;
-			text-align: left;
-			font-weight: 100;
+	    position: absolute;
+	    bottom: 20%;
+	    text-transform: uppercase;
+	    width: 80%;
+	    right: 10%;
+	    line-height: 1em;
+	    color: #FFF;
+	    text-align: center;
+	    font-weight: 100;
 			h1 {
-				font-size: 5em;
+				font-size: 8em;
 				line-height: 1em;
 				margin: 0;
+				text-shadow: 5px 5px rgba(0,0,0,0.2);
 			}
-			p {
-				font-size: 1.2em;
-				color: #DFFFB7;
+			.squiggle {
+				background: url('/images/Usquigglew.svg') repeat-x;
+				width: 160px;
+				height: 2em;
+				opacity: 0.7;
+				margin-top: 50px;
+				display: inline-block;
+    		background-size: auto 100%;
 			}
 		}
 	}
 	& > .even {
 		position: relative;
-		background: #f0f0f0;
+		background: #FAFAFA;
 		padding-bottom: 20px;
 		z-index: 0;
 		&:before {
 			content: "";
 			background: inherit;
-			.rotate(1deg);
+			-webkit-transform: rotate(2deg);
+    	transform: rotate(2deg);
 			position: absolute;
 			width: 101%;
-			height: 100px;
+			height: 120px;
 			top: -50px;
 			left: -1%;
 			z-index: -1;
@@ -113,20 +181,62 @@ body {
 		&:after {
 			content: "";
 			background: inherit;
-			.rotate(-1deg);
+			-webkit-transform: rotate(-2deg);
+    	transform: rotate(-2deg);
 			position: absolute;
 			width: 101%;
-			height: 100px;
+			height: 120px;
 			bottom: -50px;
 			left: -1%;
 			z-index: -1;
 		}
 	}
-	#about .container {
+	hr {
+		width: 60%;
+		border: none;
+		border-bottom: 6px dashed #eee;
+		margin: 80px auto;
+	}
+	#about {
+		width: 40%;
+		margin: auto;
+		padding-top: 50px;
+		text-align: center;
+		.important {
+			color: #FFA158;
+		}
+		h1, h2 {
+			margin: 0;
+		}
+		h1 {
+			font-size: 3em;
+			color: #559F79;
+		}
+		h2 {
+			font-size: 1.5em;
+			color: #ccc;
+		}
+		p {
+			margin: 0;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		.squiggle {
+			background: url('/images/Usquiggle.svg') repeat-x;
+			width: 4em;
+			height: .8em;
+			opacity: 0.1;
+			margin: 30px;
+			text-align: center;
+			display: inline-block;
+			background-size: auto 100%;
+		}
+	}
+	#faq {
 		width: 80%;
 		margin: auto;
+		margin-top: 50px;
 		text-align: center;
-		font-weight: 100;
 		line-height: 1.6em;
 		& > div {
 			display: inline-block;
@@ -173,7 +283,7 @@ body {
 			}
 		}
 		button.fb {
-			padding-right: 0;
+			font-weight: bold;
 			background: #477ED1;
 			&:hover {
 				background: #377EE7;
@@ -181,12 +291,13 @@ body {
 		}
 	}
 	footer {
-		padding: 0 20px;
+		padding: 20px;
 		color: #bbb;
 		&.even:before {
-			height: 50px;
+			height: 70px;
 			top: -35px;
-			.rotate(1deg);
+			-webkit-transform: rotate(2deg);
+    	transform: rotate(2deg);
 		}
 		&:after {
 			display: none;
