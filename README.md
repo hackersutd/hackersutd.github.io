@@ -1,5 +1,4 @@
-utdhackers.github.io
+HackerUTD
 ====================
 
-This is the website for UTD Hackers.
-
+UTD's own hackathon enthusiast club
