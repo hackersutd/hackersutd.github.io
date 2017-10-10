@@ -21,7 +21,7 @@ Here's a short video:
 * Developer conferences like [API World](http://apiworld.co/) and [Developer Week](http://www.developerweek.com/) also organize weekend long hackathons during their conferences.
 
 ## HH Community 
-[Hackathon Hackers](https://www.facebook.com/groups/hackathonhackers/) is a community of student hackers. It's a great place to share ideas, memes and connect with other hackers.
+[Hackathon Hackers](https://www.facebook.com/groups/hackathonhackers/) is a community of 60,000+ student hackers. It's a great place to share ideas, memes and connect with other hackers.
 
 ## What to build at these hackathons?
 Anything. That crazy idea for App, you had a few weeks ago. Or that intelligent door knob you always wanted to create. How about a reddit-clone for your school? 
@@ -47,12 +47,10 @@ Similarly, Google Maps API can be used to integrate a real world map into your h
 
 ## Final Note
 
-Take baby steps. I spoke to a lot of my peers to get them involved into hackathons and one thing I noticed- they always wanted to wait and finish some course in college and get experience before going to hackathons.
-
-**You don't need that. All or most of the learning can be done at hackathons ** 
+Take baby steps. I spoke to a lot of my peers to get them involved into hackathons and one thing I noticed- they always wanted to wait and finish some course in college and get experience before going to hackathons. You don't need that. All or most of the learning can be done at hackathons. 
 
 
 
 
-### Author: [Rahul Sonwalkar](http://rahul.ru) 
+#### Author: [Rahul Sonwalkar](http://rahul.ru) 
 Date: 10/9/2017
