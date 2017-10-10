@@ -29,15 +29,30 @@ Anything. That crazy idea for App, you had a few weeks ago. Or that intelligent 
 Just create. Get started even if you have never created an App, worked with Raspberry Pis or created a website. 
 
 ## How to get started 
-No. You don't need to be a pro in Java to create an Android App. 
+Don't let your past knowledge of things restrict you. 
 
-Don't let your past knowledge of things restrict you. Google is your friend. Find getting-started tutorials on Google or videos on YouTube. Follow them step by step until you have something working. Next step is to get an understanding of how that thing is working. This can be done by changing a few things here and there and observing what happens. Then move ahead.
+Google and YouTube are your friend.Find getting-started tutorials on Google or videos on YouTube. Follow them step by step until you have something working. Next step is to get an understanding of how that thing is working. This can be done by changing a few things here and there and then observing what happens. Once you are comfortable, move forward.
 
-The goal is to create a working prototype and to achieve this, you have learn and out things together in 24 hours.
+Example: [Create a Messenger bot in 15 mins](https://github.com/jw84/messenger-bot-tutorial)
+
+   [Create your first Android App in 15 mins](https://www.youtube.com/watch?v=mAJeK283j0I)
+
+The goal is to create a working prototype and to achieve this, you have learn and put things together in 24 hours.
+
+**APIs** make the lifes of programmers easy. Example: Need your code to automatically send a text when something happens? [Twilio](https://www.twilio.com/docs/quickstart/node/programmable-sms) has an API that let's you send a text message in just 14 lines of code. 
+
+Similarly, Google Maps API can be used to integrate a real world map into your hack.
+
+[Stripe](https://stripe.com/docs), [Docusign](https://secure.docusign.com/demo), [Facebook Graph](https://developers.facebook.com/docs/graph-api/) and [Twitter](https://developer.twitter.com/) are some APIs commonly used by hackers since they are super easy to get started with.
 
 ## Final Note
 
-Take baby steps. I spoke to a lot of my peers to get them involved into hackathons. One thing I noticed- they always wanted to finish a course in college or online and get experience 
+Take baby steps. I spoke to a lot of my peers to get them involved into hackathons and one thing I noticed- they always wanted to wait and finish some course in college and get experience before going to hackathons.
+
+**You don't need that. All or most of the learning can be done at hackathons ** 
+
+
+
 
 ### Author: [Rahul Sonwalkar](http://rahul.ru) 
 Date: 10/9/2017
