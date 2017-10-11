@@ -54,3 +54,6 @@ Take baby steps. I spoke to a lot of my peers to get them involved into hackatho
 
 #### Author: [Rahul Sonwalkar](http://rahul.ru) 
 Date: 10/9/2017
+
+<img src="https://media.giphy.com/media/3o7TKArwYEVSqn6Fuo/giphy.gif"/>
+
