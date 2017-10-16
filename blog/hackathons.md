@@ -33,6 +33,9 @@ Anything. That crazy idea for app you had a few weeks ago. Or that intelligent d
 
 Create something. Get started even if you have never created an app, worked with hardware or made websites. Hackathons are the places to learn these things.
 
+<img src="https://media.giphy.com/media/eRqxSA8uc2yas/giphy.gif"/>
+
+
 ## How to get started 
 Don't let your past knowledge of things restrict you. 
 
