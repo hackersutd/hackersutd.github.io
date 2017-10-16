@@ -1,6 +1,11 @@
 # Getting started with Hackathons
 A quick guide for UTD Freshman and first-timers.
 
+
+
+<img src="https://media.giphy.com/media/wpoLqr5FT1sY0/giphy.gif"/>
+
+
 ## What and why?
 Hackathons are an awesome way to build ideas and learn technology. Additionally, they provide a great opportunity to network with engineers, recruiters and other programmers.
 The best part? most of them are **FREE**.
@@ -24,14 +29,14 @@ Here's a short video:
 [Hackathon Hackers](https://www.facebook.com/groups/hackathonhackers/) is a community of 60,000+ student hackers. It's a great place to share ideas, memes and connect with other hackers.
 
 ## What to build at these hackathons?
-Anything. That crazy idea for App, you had a few weeks ago. Or that intelligent door knob you always wanted to create. How about a reddit-clone for your school? 
+Anything. That crazy idea for app you had a few weeks ago. Or that intelligent door knob you always wanted to create. How about a reddit-clone for your school? 
 
-Just create. Get started even if you have never created an App, worked with Raspberry Pis or created a website. 
+Create something. Get started even if you have never created an app, worked with hardware or made websites. Hackathons are the places to learn these things.
 
 ## How to get started 
 Don't let your past knowledge of things restrict you. 
 
-Google and YouTube are your friend.Find getting-started tutorials on Google or videos on YouTube. Follow them step by step until you have something working. Next step is to get an understanding of how that thing is working. This can be done by changing a few things here and there and then observing what happens. Once you are comfortable, move forward.
+Google and YouTube are your friend. Find getting-started tutorials on Google or videos on YouTube. Follow them step by step until you have something working. Next step is to get an understanding of how that thing is working. This can be done by changing a few things here and there and then observing what happens. Once you are comfortable, move forward.
 
 Example: [Create a Messenger bot in 15 mins](https://github.com/jw84/messenger-bot-tutorial)
 
